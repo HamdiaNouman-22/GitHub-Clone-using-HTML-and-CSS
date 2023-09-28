@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Days+One&family=Lato&family=Montserrat&family=Mooli&family=Roboto:ital@0;1&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("/Github project/nasa-rTZW4f02zY8-unsplash.jpg");
+    background-repeat: no-repeat;
+}
+header {
+    padding: 20px;
+    width: 1300px;
+    color: white;
+    display: flex;
+height: 40px;
+}
+
+.buttons {
+    /* display:flex;
+    justify-content: space-between; */
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: inline-block;
+     font-family: 'Montserrat', sans-serif;
+     font-weight:600;
+     font-size: 14.8px;
+}
+
+.logo {
+    height: 37px;
+    width: 38px;
+    display: inline;
+}
+.search{
+    width: 270px;
+    height: 10px;
+    padding: 10px;
+    border-color: rgba(73, 71, 71, 0.923);
+    border-radius: 8px;
+    margin-left: 380px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13.7px;
+    background:none;
+
+}
+.search:hover{
+    background-color:rgba(15, 15, 100, 0.49) ;
+    cursor: pointer;
+
+}
+.border{
+    border-color: grey;
+    border-radius: 8px;
+}
+main{
+    height:  80px- 40px;
+    margin-bottom: 60px;
+    width: 1350px;
+}
+.container{
+    font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   color: whitesmoke;
+
+   height: 340px;
+   padding-top: 400px;
+   padding-left: 140px;
+   width: 1000px;
+}
+h1{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+}
+h2{
+     font-family: 'Cuprum', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(186, 125, 11);
+   margin-bottom: 60px;
+}
+.container{
+    display: inline-block;
+}
+.emailaddress{
+    width: 270px;
+    /* height: 48px; */
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight:300;
+    border: white;
+    color: rgb(135, 129, 129);
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(193, 136, 22);
+    padding-bottom: 12px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 20px; */
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   width: 155px;
+   ffont-family: 'Open Sans', sans-serif;
+   font-size: 17px;
+   font-weight: bold;
+   border: rgb(193, 136, 22);
+   
+
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: -1px 4px 5px skyblue;
+}
+.container2{
+    display: flex;
+   height: 50px;
+   margin-bottom: 110px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.m2{
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    display: inline;
+    
+}
+.m3{
+    font-size: 24px;
+    font-weight: 600;
+    /* font-family: 'Cuprum', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 29px;
+}
+.container3{
+    /* background-color: brown; */
+    width: 900px;
+}
+footer{
+    /* display: inline; */
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
+  background-color: rgba(15, 15, 100, 0.49) ;
+  width: 1350px;
+  height: 71px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.footer1{
+    color: gray;
+     display: flex; 
+     justify-content: space-between;
+     /* background-color: rgb(196, 205, 15); */
+     width: 565px;
+     height: 10px;
+     /* justify-content: space-between; */
+    text-decoration: none;
+    /* margin-left: 33px; */
+   /*  margin-right: 50px;*/
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 10px;
+     font-family: 'Cuprum', sans-serif;
+     font-size: 15.8px;
+    
+    /* padding-top: 90px;
+    padding-bottom: 50px;  */
+    
+}
+.m5{
+    color: gray;
+    text-decoration: none;
+}
+.m5:hover{
+    text-decoration: underline;
+    /* color: rgb(12, 12, 48); */
+    color: rgb(30, 130, 170);
+}
+
+.footer2{
+ display: flex;
+ justify-content: space-between;
+    /* background-color: red; */
+    /* margin-right: 20px; 
+    margin-left: 10px; */
+    width: 220px;
+    margin-right: 25px;
+    padding: 30px; 
+    /* height: 10px; */
+}
+.m4{
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline;
+}
